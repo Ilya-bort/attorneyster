@@ -1,0 +1,1026 @@
+<!--!HTML ФАЙЛ ПРОВЕРЯЙ НА ВАЛИДНОСТЬ-->
+<!DOCTYPE html>
+<!--ЯЗЫК НА СТРАНИЦЕ-->
+<html lang="en">
+<!-- В шаблоне поменяй на ru -->
+
+<!--!HEAD-->
+
+<head>
+	<!--ЗАГОЛОВОК СТРАНИЦЫ-->
+	<title>
+		Attorneyster
+	</title>
+	<!--ПОДКЛЮЧЕНИЕ CSS-->
+	<link rel="stylesheet" href="css/style.css">
+	<!--ПОДКЛЮЧЕНИЕ ИКОНКИ СТРАНИЦЫ-->
+	<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+	<!-- ПОДКЛЮЧЕНИЕ ШРИФТОВ -->
+	<!-- font-family: "Outfit", sans-serif; -->
+	<link href="https://fonts.googleapis.com/css?family=Outfit:regular,700&display=swap" rel="stylesheet" />
+	<!-- font-family: "Cormorant Garamond", serif; -->
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:regular&display=swap" rel="stylesheet" />
+	<!--СОВРЕМЕННАЯ КОДИРОВКА СТРАНИЦЫ -->
+	<meta charset="utf-8">
+	<!--META-ТЕГИ-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<!--Отключение формирования ссылки номера телефона у IOS-->
+	<meta name="format-detection" content="telephone=no">
+	<!--Последняя версия браузера-->
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<!--!BODY-->
+
+<body>
+
+	<!-- ОСНОВНАЯ ОБОЛОЧКА -->
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__container container">
+		<div class="header__body">
+			<div class="header__head">
+				<a href="#" class="header__logo"><img src="images/header/logo_2.svg" alt="logo"></a>
+				<button class="header__button btn_1 popup-open" data-popup-open="popup-1">Book A Consultation</button>
+				<div class="header__responsive">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<div class="header__footer">
+				<nav class="header__navigation navi">
+					<ul class="navi__list">
+						<li><a href="#" class="navi__link active scroll-link">Home</a></li>
+						<li><a href="#about" class="navi__link scroll-link">About Us</a></li>
+						<li><a href="#pages" class="navi__link scroll-link">Pages</a></li>
+						<li><a href="#contact" class="navi__link scroll-link">Contact Us</a></li>
+						<li><button class="navi__link res popup-open" data-popup-open="popup-1">Book A Consultation</button></li>
+						<li><a href="tel:+911987654321" class="navi__link res ">Call</a></li>
+						<li><a href="mailto:yourmail@mail.com" class="navi__link res ">Email</a></li>
+					</ul>
+				</nav>
+				<div class="header__active active">
+					<div class="active__call">
+						<a href="tel:+911987654321" class="active__icon"><img src="images/header/phone.svg" alt=""></a>
+						<div class="active__content">
+							<a href="tel:+911987654321" class="active__title">Call Us On:</a>
+							<a href="tel:+911987654321" class="active__telephone">911-987654321</a>
+						</div>
+					</div>
+					<div class="active__email">
+						<a href="mailto:yourmail@mail.com" class="active__icon"><img src="images/header/post.svg" alt=""></a>
+						<div class="active__content">
+							<a href="mailto:yourmail@mail.com" class="active__title">Email Us On:</a>
+							<a href="mailto:yourmail@mail.com" class="active__mail">yourmail@mail.com</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup-1 popup" data-popup="popup-1">
+		<div class="popup-1__body">
+			<div class="popup-1__content">
+				<button class="popup-1__close popup-close"><img src="images/modal-window-1/icon.svg" alt="close icon"></button>
+				<form action="#" id="form" class="popup-1__form">
+					<div class="popup-1__inputs">
+						<div class="popup-1__item">
+							<p>Your Name:</p>
+							<input type="text" placeholder="Full Name*" name="name" id="formName">
+						</div>
+						<div class="popup-1__item">
+							<p>Your Email:</p>
+							<input type="email" placeholder="Email Adress*" name="email" id="formEmail">
+						</div>
+						<div class="popup-1__item">
+							<p>Your Phone Number:</p>
+							<input type="tel" placeholder="Phone Number" name="telephone" id="fomPhone">
+						</div>
+						<div class="popup-1__item">
+							<p>Your Subject:</p>
+							<input type="text" name="subject" placeholder="Subject" id="formSubject">
+						</div>
+					</div>
+					<div class="popup-1__message">
+						<p>Your message:</p>
+						<textarea name="message" id="formMessage" placeholder="Message"></textarea>
+					</div>
+					<div class="popup-1__approve">
+						<label class="check">
+							<input type="checkbox" class="check__input">
+							<span class="check__box"></span>
+							I agree to the processing of my data based on the <button type="button" class="popup-open check__button" data-popup-open="popup-2">terms of data processing of site users</button>.
+						</label>
+					</div>
+					<button type="submit" class="popup-1__button btn3">Send this form</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup-1 popup" data-popup="popup-2">
+		<div class="popup-1__body">
+			<div class="popup-1__content">
+				<button class="popup-1__close popup-close"><img src="images/modal-window-1/icon.svg" alt="close icon"></button>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos ab sequi fuga, veritatis labore sed voluptate natus laudantium animi sunt soluta doloribus reiciendis reprehenderit earum iste ipsa quae? Autem, ea?</p>
+			</div>
+		</div>
+	</div>
+</header>
+		<main class="main">
+			<section class="main__hello hello-main">
+				<div class="hello-main__image ibj"><img src="images/hello-main/cover_2.webp" alt="cover"></div>
+				<div class="hello-main__container container">
+					<div class="hello-main__body body">
+						<div class="body__content content">
+							<div class="content__decor"><img src="images/hello-main/decor.svg" alt="decor"></div>
+							<div class="content__title">We're Group Of Certified Law Professionals</div>
+							<div class="content__text">we have helped countless maritime workers and their families go up
+								against the largest offshore companies and win.</div>
+							<button class="content__button btn2 popup-open" data-popup-open="popup-3">Get In Touch</button>
+						</div>
+						<div class="body__image ibj"><img src="images/hello-main/man_2.webp" alt="prorofessional"></div>
+					</div>
+				</div>
+			</section>
+			<section id="about" class="main__welcome welcome-main">
+				<div class="welcome-main__container container">
+					<div class="welcome-main__body">
+						<div class="welcome-main__images">
+							<div class="welcome-main__image ibj"><img src="images/welcome-main/room_2.webp" alt=""></div>
+							<div class="welcome-main__image ibj"><img src="images/welcome-main/law_2.webp" alt=""></div>
+						</div>
+						<div class="welcome-main__content content-welcome">
+							<div class="content-welcome__title">Welcome to Attorney Law - <br> Lawyer & Law Firm Company</div>
+							<div class="content-welcome__decor"><img src="images/welcome-main/decor.svg" alt="For beauty">
+							</div>
+							<div class="content-welcome__text">Although we are located in Brooklyn, our maritime lawyers are
+								proud to help the injured throughout the nation, including workers who were working in foreign
+								waters at the time of the incident go up against the largest offshore companies and win.</div>
+							<div class="content-welcome__peter peter">
+								<div class="peter__image "><img src="images/welcome-main/man_2.webp" alt="Peter Parker"></div>
+								<div class="peter__name">Peter Parker</div>
+							</div>
+							<div class="content-welcome__cards cards-welcome">
+								<div class="cards-welcome__card cards-welcome__card_black">
+									<div class="cards-welcome__icon"><img src="images/welcome-main/icon.svg" alt=""></div>
+									<div class="cards-welcome__titles titles-cards-welcome">
+										<div class="titles-cards-welcome__title">95%</div>
+										<div class="titles-cards-welcome__text">Case Success</div>
+									</div>
+								</div>
+								<div class="cards-welcome__card cards-welcome__card_yellow">
+									<div class="cards-welcome__icon">35+</div>
+									<div class="cards-welcome__titles titles-cards-welcome">
+										<div class="titles-cards-welcome__title">Years</div>
+										<div class="titles-cards-welcome__text">Experience</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__explore explore-main">
+				<div class="explore-main__container container">
+					<div class="explore-main__body">
+						<div class="explore-main__top">
+							<div class="explore-main__title title-explore-main">
+								<div class="title-explore-main__title">Explore The perfect <br> Our Practice Areas</div>
+								<div class="title-explore-main__decor"><img src="images/explore-main/decor.svg"
+										alt="For beauty"></div>
+							</div>
+							<div class="explore-main__text">We are a group of civil litigation/trial attorneys who focus on
+								providing a justice based on the issues relating to insurance defense, insurance coverage, bad
+								faith, insurance fraud and criminal litigation.</div>
+						</div>
+						<div class="explore-main__bottom">
+							<div class="explore-main__item popup-open" data-popup-open="business">
+								<div class="explore-main__column column-explore-main">
+									<div class="column-explore-main__title">Business Law</div>
+									<div class="column-explore-main__text">Be aware of new developments, as laws and rules often
+										change based on the situation.</div>
+									<div class="column-explore-main__active active-column-explore-main">
+										<button class="active-column-explore-main__icon popup-open"
+											data-popup-open="business"><img src="images/explore-main/business.svg"
+												alt="business icon"></button>
+										<button class="active-column-explore-main__button btn3 popup-open"
+											data-popup-open="business">View More</button>
+									</div>
+								</div>
+							</div>
+							<div class="explore-main__item popup-open" data-popup-open="construction">
+								<div class="explore-main__column column-explore-main">
+									<div class="column-explore-main__title">Construction Law</div>
+									<div class="column-explore-main__text">Never judge, just listen and advise. Even if your
+										client has made a bad decision in the case.</div>
+									<div class="column-explore-main__active active-column-explore-main">
+										<button class="active-column-explore-main__icon popup-open"
+											data-popup-open="construction"><img src="images/explore-main/building.svg"
+												alt="building icon"></button>
+										<button class="active-column-explore-main__button btn3 popup-open"
+											data-popup-open="construction">View More</button>
+									</div>
+								</div>
+							</div>
+							<div class="explore-main__item popup-open" data-popup-open="car">
+								<div class="explore-main__column column-explore-main">
+									<div class="column-explore-main__title">Car Accident</div>
+									<div class="column-explore-main__text">Being untruthful will get you nowhere and give you a
+										reputation of the dishonesty in law.</div>
+									<div class="column-explore-main__active active-column-explore-main">
+										<button class="active-column-explore-main__icon popup-open" data-popup-open="car"><img
+												src="images/explore-main/car.svg" alt=""></button>
+										<button class="active-column-explore-main__button btn3 popup-open"
+											data-popup-open="car">View More</button>
+									</div>
+								</div>
+							</div>
+							<div class="explore-main__item popup-open" data-popup-open="death">
+								<div class="explore-main__column column-explore-main">
+									<div class="column-explore-main__title">Wrongful Death</div>
+									<div class="column-explore-main__text">Keep yourself up-to-date on your area of law. Be aware
+										of new justice, as laws and rules.</div>
+									<div class="column-explore-main__active active-column-explore-main">
+										<button class="active-column-explore-main__icon popup-open" data-popup-open="death"><img
+												src="images/explore-main/death.svg" alt=""></button>
+										<button class="active-column-explore-main__button btn3 popup-open"
+											data-popup-open="death">View More</button>
+									</div>
+								</div>
+							</div>
+							<div class="explore-main__item popup-open" data-popup-open="law">
+								<div class="explore-main__column column-explore-main">
+									<div class="column-explore-main__title">Criminal Law</div>
+									<div class="column-explore-main__text">Our attorneys are fully committed to providing you
+										with the support and attention that you deserve.</div>
+									<div class="column-explore-main__active active-column-explore-main">
+										<button class="active-column-explore-main__icon popup-open" data-popup-open="law"><img
+												src="images/explore-main/criminal.svg" alt=""></button>
+										<button class="active-column-explore-main__button btn3 popup-open"
+											data-popup-open="law">View More</button>
+									</div>
+								</div>
+							</div>
+							<div class="explore-main__item popup-open" data-popup-open="family">
+								<div class="explore-main__column column-explore-main">
+									<div class="column-explore-main__title">Family Law</div>
+									<div class="column-explore-main__text">You may find yourself unable to work or complete
+										work-related responsibilities safely.</div>
+									<div class="column-explore-main__active active-column-explore-main">
+										<button class="active-column-explore-main__icon popup-open" data-popup-open="family"><img
+												src="images/explore-main/family.svg" alt=""></button>
+										<button class="active-column-explore-main__button btn3 popup-open"
+											data-popup-open="family">View More</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="pages" class="main__work work-main">
+				<div class="work-main__container container">
+					<div class="work-main__body">
+						<div class="work-main__top">
+							<div class="work-main__title">Fighting to get what you deserve</div>
+							<div class="work-main__decor"><img src="images/work-main/decor.svg" alt="For beauty"></div>
+							<div class="work-main__text">Our board-certified family law attorneys work to achieve a fair and
+								timely resolution of the legal issues in your case.</div>
+							<div class="work-main__num">
+								<div class="work-main__column">
+									<div class="work-main__item item-work">
+										<div class="item-work__image ibj"><img src="images/work-main/law.jpg" alt="law"></div>
+										<div class="item-work__body">
+											<div class="item-work__info info-work">
+												<div class="info-work__icon"><img src="images/work-main/icon.svg" alt="icon"></div>
+												<div class="info-work__int">7230</div>
+											</div>
+											<div class="item-work__content content-work">
+												<div class="content-work__title">Trusted Clients</div>
+												<div class="content-work__text">Number of clients we've</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="work-main__column">
+									<div class="work-main__item item-work">
+										<div class="item-work__image ibj"><img src="images/work-main/law.jpg" alt="law"></div>
+										<div class="item-work__body">
+											<div class="item-work__info info-work">
+												<div class="info-work__icon"><img src="images/work-main/icon_2.svg" alt="icon">
+												</div>
+												<div class="info-work__int">98%</div>
+											</div>
+											<div class="item-work__content content-work">
+												<div class="content-work__title">Successful Cases</div>
+												<div class="content-work__text">Largest winning value</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="work-main__column">
+									<div class="work-main__item item-work">
+										<div class="item-work__image ibj"><img src="images/work-main/law.jpg" alt="law"></div>
+										<div class="item-work__body">
+											<div class="item-work__info info-work">
+												<div class="info-work__icon"><img src="images/work-main/icon.svg" alt="icon"></div>
+												<div class="info-work__int">15,890+</div>
+											</div>
+											<div class="item-work__content content-work">
+												<div class="content-work__title">Trusted Clients</div>
+												<div class="content-work__text">Criminal Defense Case Served</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__slider slider">
+				<div class="slider__container container">
+					<div class="slider__title"><span>Meet the Partners</span></div>
+					<div class="slider__body">
+						<div class="slider__item"><img data-lazy="images/work-main/modern_home.svg" alt="modern home"></div>
+						<div class="slider__item"><img data-lazy="images/work-main/vs.svg" alt="vs company"></div>
+						<div class="slider__item"><img data-lazy="images/work-main/brand.svg" alt="brand"></div>
+						<div class="slider__item"><img data-lazy="images/work-main/nature_home.svg" alt="nature home"></div>
+						<div class="slider__item"><img data-lazy="images/work-main/classic.svg" alt="classic"></div>
+						<div class="slider__item"><img data-lazy="images/work-main/modern_home.svg" alt="modern home"></div>
+						<div class="slider__item"><img data-lazy="images/work-main/vs.svg" alt="vs company"></div>
+						<div class="slider__item"><img data-lazy="images/work-main/brand.svg" alt="brand"></div>
+						<div class="slider__item"><img data-lazy="images/work-main/nature_home.svg" alt="nature home"></div>
+						<div class="slider__item"><img data-lazy="images/work-main/classic.svg" alt="classic"></div>
+					</div>
+					<div class="content"></div>
+				</div>
+			</section>
+			<section class="main__history history-main">
+				<div class="history-main__image ibj"><img src="images/history-main/cover.png" alt="cover"></div>
+				<div class="history-main__container container">
+					<div class="history-main__card card-history">
+						<div class="card-history__steps steps-history">
+							<div class="steps-history__title title title_steps">
+								<div class="title__title">We Are Top Lawyers And History</div>
+								<div class="title__decor"><img src="images/history-main/decor.svg" alt="decor"></div>
+							</div>
+							<div class="steps-history__years">
+								<div class="steps-history__year year">
+									<div class="year__title">2000 – Establishment of the Company!</div>
+									<div class="year__text">The origins of lawyers and the first founders of law make their
+										appearance in Ancient Greece and Rome.</div>
+								</div>
+								<div class="steps-history__year year">
+									<div class="year__title">2006 – Together we Build</div>
+									<div class="year__text">Lawyers in medieval times found themselves struggling to make a
+										living as the legal profession collapsed in the western world.</div>
+								</div>
+								<div class="steps-history__year year">
+									<div class="year__title">2008 – Completed 10000 cases</div>
+									<div class="year__text">When did lawyers first start practicing in the United States? It’s
+										important to understand that the history of attorneys.</div>
+								</div>
+								<div class="steps-history__year year">
+									<div class="year__title">2011 – We are Number One</div>
+									<div class="year__text">Eventually, the prejudices against lawyers started to fall away and
+										the legal profession began to gain respect and power.</div>
+								</div>
+							</div>
+						</div>
+						<div class="card-history__visible visible-history">
+							<div class="visible-history__image ibj"><img src="images/history-main/law.jpg" alt="law"></div>
+						</div>
+						<div class="card-history__data data-history">
+							<div class="data-history__title title title_data">
+								<div class="title__title">We Are Specialised And Experienced</div>
+								<div class="title__decor"><img src="images/history-main/decor.svg" alt="decor"></div>
+							</div>
+							<div class="data-history__text">Keep yourself up-to-date on your area of law. Be aware of new
+								developments, as laws and rules often change based on the situation and new cases are being
+								decided every day.</div>
+							<div class="data-history__statistics statistics-data">
+								<div class="statistics-data__item item-statistics">
+									<div class="item-statistics__title title-statistics ">
+										<div class="title-statistics__label">Divorce And Family Cases</div>
+										<div class="title-statistics__int">75%</div>
+									</div>
+									<div class="item-statistics__line line_75">
+										<span></span>
+									</div>
+								</div>
+								<div class="statistics-data__item item-statistics">
+									<div class="item-statistics__title title-statistics ">
+										<div class="title-statistics__label">Property And Construction</div>
+										<div class="title-statistics__int">80%</div>
+									</div>
+									<div class="item-statistics__line line_80">
+										<span></span>
+									</div>
+								</div>
+								<div class="statistics-data__item item-statistics">
+									<div class="item-statistics__title title-statistics ">
+										<div class="title-statistics__label">Banking And Finance</div>
+										<div class="title-statistics__int">75%</div>
+									</div>
+									<div class="item-statistics__line line_75">
+										<span></span>
+									</div>
+								</div>
+								<div class="statistics-data__item item-statistics">
+									<div class="item-statistics__title title-statistics ">
+										<div class="title-statistics__label">Accident & Wrongful Death</div>
+										<div class="title-statistics__int">90%</div>
+									</div>
+									<div class="item-statistics__line line line_90">
+										<span></span>
+									</div>
+								</div>
+							</div>
+							<button class="data-history__button btn2 popup-open" data-popup-open="popup-3">
+								Free Consulting
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__reviews reviews-main">
+				<div class="reviews-main__container container">
+					<div class="reviews-main__body">
+						<div class="reviews-main__title title-review">
+							<div class="title-review__title">Client Opinions & Reviews</div>
+							<div class="title-review__decor"><img src="images/reviews-main/decor.svg" alt="decor"></div>
+						</div>
+						<div class="reviews-main__cards">
+							<div class="reviews-main__column">
+								<div class="reviews-main__item item-reviews">
+									<div class="item-reviews__review review">
+										<div class="review__icon"><img src="images/reviews-main/review.svg" alt=""></div>
+										<div class="review__text">Could you please thank Paul personally for me, the stars are for
+											his forehead. The perfect way of handling the case based on the situation.</div>
+									</div>
+									<div class="item-reviews__person person">
+										<div class="person__foto">
+											<img src="images/reviews-main/natasha.png" alt="natasha">
+										</div>
+										<div class="person__info">
+											<div class="person__name">Natasha</div>
+											<div class="person__job">Private Employee</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews-main__column rev">
+								<div class="reviews-main__item item-reviews rev">
+									<div class="item-reviews__review review rev">
+										<div class="review__icon"><img src="images/reviews-main/review.svg" alt=""></div>
+										<div class="review__text">Attorney law firm really helped me with all my family law and
+											custody issues at the right time. Words are not enough to thank the firm.</div>
+									</div>
+									<div class="item-reviews__person person rev">
+										<div class="person__foto">
+											<img src="images/reviews-main/butler.png" alt="">
+										</div>
+										<div class="person__info">
+											<div class="person__name">Hannah Butler</div>
+											<div class="person__job">Business Sector</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews-main__column">
+								<div class="reviews-main__item item-reviews">
+									<div class="item-reviews__review review">
+										<div class="review__icon"><img src="images/reviews-main/review.svg" alt=""></div>
+										<div class="review__text">Thank you for the way in which your team handling the matter on
+											a perfect way. They give me a big relief in this case with more confident.</div>
+									</div>
+									<div class="item-reviews__person person">
+										<div class="person__foto">
+											<img src="images/reviews-main/philip.png" alt="">
+										</div>
+										<div class="person__info">
+											<div class="person__name">Phillip Arnold</div>
+											<div class="person__job">Bus Driver</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews-main__column rev">
+								<div class="reviews-main__item item-reviews rev">
+									<div class="item-reviews__review review rev">
+										<div class="review__icon"><img src="images/reviews-main/review.svg" alt=""></div>
+										<div class="review__text">I frequently check the Best Lawyers list to select an attorney
+											in areas too familiar with at the end they came and lead to achive the justice.</div>
+									</div>
+									<div class="item-reviews__person person rev">
+										<div class="person__foto">
+											<img src="images/reviews-main/warren.png" alt="">
+										</div>
+										<div class="person__info">
+											<div class="person__name">Joshua Warren</div>
+											<div class="person__job">Private Engineer</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__men men-main">
+				<div class="men-main__container container">
+					<div class="men-main__title top-title top-title_dark">
+						<div class="top-title__text">Our Experienced Attorney Are Ready To answer any questions</div>
+						<div class="top-title__icon"><img src="images/men-main/ico.svg" alt=""></div>
+					</div>
+					<div class="men-main__body">
+						<div class="men-main__column">
+							<div class="men-main__item item-men">
+								<div class="item-main__card card-men">
+									<div class="card-men__image ibj"><img src="images/men-main/john.jpg" alt="John Turner"></div>
+									<div class="card-men__social social">
+										<span></span>
+										<div class="social__body">
+											<div class="social__item">
+												<a href="#" class="social__icon"><img src="images/men-main/fb.svg"
+														alt="Facebook"></a>
+											</div>
+											<div class="social__item">
+												<a href="#" class="social__icon"><img src="images/men-main/tw.svg"
+														alt="Twitter"></a>
+											</div>
+											<div class="social__item">
+												<a href="#" class="social__icon"><img src="images/men-main/ig.svg"
+														alt="Instagram"></a>
+											</div>
+											<div class="social__item">
+												<a href="#" class="social__icon"><img src="images/men-main/pr.svg"
+														alt="Pinterest"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item-men__content">
+									<div class="item-men__name">John Turner</div>
+									<div class="item-men__job">Civil Attorney</div>
+								</div>
+							</div>
+						</div>
+						<div class="men-main__column">
+							<div class="men-main__item item-men">
+								<div class="item-main__card card-men">
+									<div class="card-men__image ibj"><img src="images/men-main/martha.jpg" alt="Martha Black">
+									</div>
+									<div class="card-men__social social">
+										<span></span>
+										<div class="social__body">
+											<div class="social__item">
+												<a href="#" class="social__icon"><img src="images/men-main/fb.svg"
+														alt="Facebook"></a>
+											</div>
+											<div class="social__item">
+												<a href="#" class="social__icon"><img src="images/men-main/tw.svg"
+														alt="Twitter"></a>
+											</div>
+											<div class="social__item">
+												<a href="#" class="social__icon"><img src="images/men-main/ig.svg"
+														alt="Instagram"></a>
+											</div>
+											<div class="social__item">
+												<a href="#" class="social__icon"><img src="images/men-main/pr.svg"
+														alt="Pinterest"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item-men__content">
+									<div class="item-men__name">Martha Black</div>
+									<div class="item-men__job">Associate Attorney</div>
+								</div>
+							</div>
+						</div>
+						<div class="men-main__column">
+							<div class="men-main__item item-men">
+								<div class="item-main__card card-men">
+									<div class="card-men__image ibj"><img src="images/men-main/brian.jpg" alt="Brian Gomez">
+									</div>
+									<div class="card-men__social social">
+										<span></span>
+										<div class="social__body">
+											<div class="social__item">
+												<a href="#" class="social__icon"><img src="images/men-main/fb.svg"
+														alt="Facebook"></a>
+											</div>
+											<div class="social__item">
+												<a href="#" class="social__icon"><img src="images/men-main/tw.svg"
+														alt="Twitter"></a>
+											</div>
+											<div class="social__item">
+												<a href="#" class="social__icon"><img src="images/men-main/ig.svg"
+														alt="Instagram"></a>
+											</div>
+											<div class="social__item">
+												<a href="#" class="social__icon"><img src="images/men-main/pr.svg"
+														alt="Pinterest"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item-men__content">
+									<div class="item-men__name">Brian Gomez</div>
+									<div class="item-men__job">Titular Attorney</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contact" class="main__connection connection-main">
+				<div class="connection-main__container container">
+					<div class="connection-main__content">
+						<div class="connection-main__title title-content title-content_white">
+							<div class="title-content__label">Our professional Expert law team is always ready to serve you
+							</div>
+							<div class="title-content__icon"><img src="images/connection-main/icon.svg" alt="Icon for beauty">
+							</div>
+						</div>
+						<div class="connection-main__text">We’re always available for new cases big or small. Send us an email
+							and we’ll get in touch shortly, or phone between 8:00 am and 7:00 pm Monday to Saturday.</div>
+						<button class="connection-main__button btn2 popup-open" data-popup-open="contact">Contact Us</button>
+					</div>
+					<div class="connection-main__card card-connection popup-open" data-popup-open="contact">
+						<div class="card-connection__body">
+							<div class="card-connection__title">Get a Free Consultation</div>
+							<div class="card-connection__text">You can get free consultation and case evaluation from us via
+								the following contact number</div>
+							<div class="card-connection__actions actions-card-connection">
+								<div class="actions-card-connection__icon">
+									<a href="tel: +911987654321"><img src="images/connection-main/telephone.svg"
+											alt="Link to call"></a>
+								</div>
+								<div class="actions-card-connection__content">
+									<div class="actions-card-connection__title">Call Us On:</div>
+									<div class="actions-card-connection__telephone">
+										<span><a href="tel: +911987654321">911-987654321</a></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__meeting meeting-main">
+				<div class="meeting-main__image ibj"><img src="images/meeting-main/cover.png" alt="cover"></div>
+				<div class="meeting-main__container container">
+					<div class="meeting-main__form form-meeting">
+						<form action="#" id="form" class="form-meeting__body">
+							<div class="form-meeting__inputs">
+								<div class="form-meeting__item">
+									<input type="text" name="name" id="formName" placeholder="Full name*"
+										class="form-meeting__input">
+								</div>
+								<div class="form-meeting__item">
+									<input type="email" name="email" id="formEmail" placeholder="Email Address*"
+										class="form-meeting__input">
+								</div>
+								<div class="form-meeting__item">
+									<input type="tel" name="tel" id="formTel" placeholder="Phone Number"
+										class="form-meeting__input">
+								</div>
+								<div class="form-meeting__item">
+									<input type="text" name="subject" id="formSubject" placeholder="Subject"
+										class="form-meeting__input">
+								</div>
+							</div>
+							<div class="form-meeting__item-m">
+								<textarea name="message" id="formMessage" placeholder="Your Message"
+									class="form-meeting__input-m"></textarea>
+							</div>
+							<button type="submit" class="form-meeting__button btn4">Get An Appointment</button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="blogs__main blogs-main">
+				<div class="blogs-main__container container">
+					<div class="blogs-main__top top-blogs">
+						<div class="top-blogs__title top-title top-title_white">
+							<div class="top-title__text">Recent Blogs</div>
+							<div class="top-title__icon"><img src="images/men-main/ico.svg" alt="Icon"></div>
+						</div>
+						<div class="top-blogs__body">
+							<div class="top-blogs__image ibj"><img src="images/blogs-main/signing.jpg"
+									alt="Signing the document"></div>
+							<div class="top-blogs__content content-top-blogs">
+								<div class="content-top-blogs__event">
+									<div class="content-top-blogs__name">Corporate Law</div>
+									<div class="content-top-blogs__day">Friday, February 4, 2022</div>
+								</div>
+								<div class="content-top-blogs__title">The Difference between Information & Legal Advice</div>
+								<div class="content-top-blogs__text">Collaborative on low-hanging fruit to identify a ballpark
+									value added activity to beta matrix economically test override the digital.</div>
+								<button class="content-top-blogs__all popup-open" data-popup-open="intro-blogs">View
+									More</button>
+							</div>
+						</div>
+					</div>
+					<div class="blogs-main__bottom bottom-blogs">
+						<div class="bottom-blogs__column">
+							<div class="bottom-blogs__item item-bottom-blogs">
+								<button class="item-bottom-blogs__image ibj popup-open" data-popup-open="intro-blogs"><img
+										src="images/blogs-main/build.jpg" alt="Big beautiful building"></button>
+								<div class="item-bottom-blogs__event">
+									<div class="item-bottom-blogs__name">Corporate Law</div>
+									<div class="item-bottom-blogs__day">Friday, February 4, 2022</div>
+								</div>
+								<div class="item-bottom-blogs__title">How to Tell Who Is at Fault in a Car Accident</div>
+								<div class="item-bottom-blogs__text">Capitalize on low-hanging fruit to identify a ballpark
+									value added matrix economically activity to beta test override the digital.</div>
+								<button class="item-bottom-blogs__all popup-open" data-popup-open="intro-blogs">View More</button>
+							</div>
+						</div>
+						<div class="bottom-blogs__column">
+							<div class="bottom-blogs__item item-bottom-blogs">
+								<button class="item-bottom-blogs__image ibj popup-open" data-popup-open="intro-blogs"><img src="images/blogs-main/books.jpg"
+										alt="Books"></button>
+								<div class="item-bottom-blogs__event">
+									<div class="item-bottom-blogs__name">Legal Advice</div>
+									<div class="item-bottom-blogs__day">Friday, February 4, 2022</div>
+								</div>
+								<div class="item-bottom-blogs__title">When Sue Outside of Workers’ Compensation</div>
+								<div class="item-bottom-blogs__text">Strategies on low-hanging fruit to identify a ballpark
+									value added activity matrix economically to beta test override the digital.</div>
+								<button class="item-bottom-blogs__all popup-open" data-popup-open="intro-blogs">View More</button>
+							</div>
+						</div>
+						<div class="bottom-blogs__column">
+							<div class="bottom-blogs__item item-bottom-blogs">
+								<button class="item-bottom-blogs__image ibj popup-open" data-popup-open="intro-blogs"><img src="images/blogs-main/hall.jpg"
+										alt="Big beautiful hall"></button>
+								<div class="item-bottom-blogs__event">
+									<div class="item-bottom-blogs__name">Social Justice</div>
+									<div class="item-bottom-blogs__day">Friday, February 4, 2022</div>
+								</div>
+								<div class="item-bottom-blogs__title">Social Media Postings Lead to Defense Verdict</div>
+								<div class="item-bottom-blogs__text">Collaborative on low-hanging fruit to identify a ballpark
+									value added activity to beta matrix economically test override the digital.</div>
+								<button class="item-bottom-blogs__all popup-open" data-popup-open="intro-blogs">View More</button>
+							</div>
+						</div>
+						<div class="bottom-blogs__column">
+							<div class="bottom-blogs__item item-bottom-blogs">
+								<button class="item-bottom-blogs__image ibj popup-open" data-popup-open="intro-blogs"><img src="images/blogs-main/boss.jpg"
+										alt="Boss is looking at us"></button>
+								<div class="item-bottom-blogs__event">
+									<div class="item-bottom-blogs__name">Corporate Law</div>
+									<div class="item-bottom-blogs__day">Friday, February 4, 2022</div>
+								</div>
+								<div class="item-bottom-blogs__title">Riding solo to the rescue of her beloved nonprofits</div>
+								<div class="item-bottom-blogs__text">Podcasting on low-hanging fruit to identify a ballpark
+									value added activity to beta test override matrix economically the digital.</div>
+								<button class="item-bottom-blogs__all popup-open" data-popup-open="intro-blogs">View More</button>
+							</div>
+						</div>
+						<div class="bottom-blogs__column">
+							<div class="bottom-blogs__item item-bottom-blogs">
+								<button class="item-bottom-blogs__image ibj popup-open" data-popup-open="intro-blogs"><img src="images/blogs-main/ruines.jpg"
+										alt="Burning ruines"></button>
+								<div class="item-bottom-blogs__event">
+									<div class="item-bottom-blogs__name">Legal Advice</div>
+									<div class="item-bottom-blogs__day">Friday, February 4, 2022</div>
+								</div>
+								<div class="item-bottom-blogs__title">Case Filed on Behalf of Injured Tugboat Worker</div>
+								<div class="item-bottom-blogs__text">Efficiently on low-hanging fruit to identify a ballpark
+									value added activity to beta test matrix economically override the digital.</div>
+								<button class="item-bottom-blogs__all popup-open" data-popup-open="intro-blogs">View More</button>
+							</div>
+						</div>
+						<div class="bottom-blogs__column">
+							<div class="bottom-blogs__item item-bottom-blogs">
+								<button class="item-bottom-blogs__image ibj popup-open" data-popup-open='intro-blogs'><img src="images/blogs-main/best_workers.jpg"
+										alt="Best workers"></button>
+								<div class="item-bottom-blogs__event">
+									<div class="item-bottom-blogs__name">Social Justice</div>
+									<div class="item-bottom-blogs__day">Friday, February 4, 2022</div>
+								</div>
+								<div class="item-bottom-blogs__title">How Companies Choose Legal Representation</div>
+								<div class="item-bottom-blogs__text">Objectively on low-hanging fruit to identify a ballpark
+									value added activity to beta matrix economically test override the digital.</div>
+								<button class="item-bottom-blogs__all popup-open" data-popup-open="intro-blogs">View More</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__parallax parallax-main">
+				<div class="parallax-main__image ibj"><img src="images/parallax-main/cover.png" alt="cover"></div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__title">
+					<a href="#" class="footer__logo"><img src="images/footer/logo.svg" alt="Logo"></a>
+				</div>
+				<div class="footer__catalog catalog-footer">
+					<div class="catalog-footer__item item-catalog-footer">
+						<div class="item-catalog-footer__title">Quick Link</div>
+						<div class="item-catalog-footer__body">
+							<ul class="item-catalog-footer__list list-item-catalog-footer">
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Home</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">About Us</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Pricing</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Testimonial</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Contact Us</a></li>
+							</ul>
+							<ul class="item-catalog-footer__list list-item-catalog-footer">
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Blog</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Blog Single</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Cases</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Cases Single</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Practice Areas</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="catalog-footer__item item-catalog-footer">
+						<div class="item-catalog-footer__title">Utility Pages</div>
+						<div class="item-catalog-footer__body">
+							<ul class="item-catalog-footer__list list-item-catalog-footer">
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Style guide</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Licenses</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Protected</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Changelog</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Error Page</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="catalog-footer__item item-catalog-footer">
+						<div class="item-catalog-footer__title">Practice Area</div>
+						<div class="item-catalog-footer__body">
+							<ul class="item-catalog-footer__list list-item-catalog-footer">
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Business Law</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Construction Law</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Car Accident</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Criminal Law</a></li>
+								<li class="list-item-catalog-footer__element"><a href="#"
+										class="list-item-catalog-footer__link">Family Law</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="catalog-footer__item item-catalog-footer item-catalog-footer_column">
+						<div class="item-catalog-footer__title">Contact Us</div>
+						<div class="item-catalog-footer__body">
+							<div class="item-catalog-footer__adress adress-footer">
+								<div class="adress-footer__street">Attorney Law Office, 121 King Street,</div>
+								<div class="adress-footer__town">Las Vegas 90027,USA.</div>
+							</div>
+							<a href="tel:+011987654321" class="item-catalog-footer__phone">Phone:<span>(011) 9876
+									54321</span></a>
+							<a href="mailto:info@example.com"
+								class="item-catalog-footer__email">Email:<span>info@example.com</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__copyright copyright-footer">
+					<div class="copyright-footer__text">
+						Copyright © Attorney Law | Designed by <span>VictorFlow</span> - Powered by <span>Webflow.</span>
+					</div>
+					<div class="copyright-footer__social">
+						<div class="copyright-footer__title">Follow :</div>
+						<ul class="copyright-footer__list">
+							<li class="copyright-footer__icon"><a href="#" class="copyright-footer__link"><img
+										src="images/footer/facebook.svg" alt="Facebook"></a></li>
+							<li class="copyright-footer__icon"><a href="#" class="copyright-footer__link"><img
+										src="images/footer/twitter.svg" alt="Twitter"></a></li>
+							<li class="copyright-footer__icon"><a href="#" class="copyright-footer__link"><img
+										src="images/footer/instagram.svg" alt="Instagram"></a></li>
+							<li class="copyright-footer__icon"><a href="#" class="copyright-footer__link"><img
+										src="images/footer/pintersest.svg" alt="Pinterest"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="popup-1 popup" data-popup="popup-3">
+	<div class="popup-1__body">
+		<div class="popup-1__content">
+			<button class="popup-1__close popup-close"><img src="images/modal-window-1/icon.svg" alt="close icon"></button>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit error porro ipsam eligendi velit, architecto est unde provident ea inventore nesciunt, soluta cupiditate excepturi? Officiis praesentium id dignissimos recusandae ad.
+		</div>
+	</div>
+</div>
+
+
+<!-- Попапы для explore -->
+
+<div class="popup-1 popup" data-popup="business">
+	<div class="popup-1__body">
+		<div class="popup-1__content">
+			<button class="popup-1__close popup-close"><img src="images/modal-window-1/icon.svg" alt="close icon"></button>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit error porro ipsam eligendi velit, architecto est unde provident ea inventore nesciunt, soluta cupiditate excepturi? Officiis praesentium id dignissimos recusandae ad.
+		</div>
+	</div>
+</div>
+<div class="popup-1 popup" data-popup="construction">
+	<div class="popup-1__body">
+		<div class="popup-1__content">
+			<button class="popup-1__close popup-close"><img src="images/modal-window-1/icon.svg" alt="close icon"></button>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit error porro ipsam eligendi velit, architecto est unde provident ea inventore nesciunt, soluta cupiditate excepturi? Officiis praesentium id dignissimos recusandae ad.
+		</div>
+	</div>
+</div>
+<div class="popup-1 popup" data-popup="car">
+	<div class="popup-1__body">
+		<div class="popup-1__content">
+			<button class="popup-1__close popup-close"><img src="images/modal-window-1/icon.svg" alt="close icon"></button>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit error porro ipsam eligendi velit, architecto est unde provident ea inventore nesciunt, soluta cupiditate excepturi? Officiis praesentium id dignissimos recusandae ad.
+		</div>
+	</div>
+</div>
+<div class="popup-1 popup" data-popup="death">
+	<div class="popup-1__body">
+		<div class="popup-1__content">
+			<button class="popup-1__close popup-close"><img src="images/modal-window-1/icon.svg" alt="close icon"></button>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit error porro ipsam eligendi velit, architecto est unde provident ea inventore nesciunt, soluta cupiditate excepturi? Officiis praesentium id dignissimos recusandae ad.
+		</div>
+	</div>
+</div>
+<div class="popup-1 popup" data-popup="law">
+	<div class="popup-1__body">
+		<div class="popup-1__content">
+			<button class="popup-1__close popup-close"><img src="images/modal-window-1/icon.svg" alt="close icon"></button>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit error porro ipsam eligendi velit, architecto est unde provident ea inventore nesciunt, soluta cupiditate excepturi? Officiis praesentium id dignissimos recusandae ad.
+		</div>
+	</div>
+</div>
+<div class="popup-1 popup" data-popup="family">
+	<div class="popup-1__body">
+		<div class="popup-1__content">
+			<button class="popup-1__close popup-close"><img src="images/modal-window-1/icon.svg" alt="close icon"></button>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit error porro ipsam eligendi velit, architecto est unde provident ea inventore nesciunt, soluta cupiditate excepturi? Officiis praesentium id dignissimos recusandae ad.
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- Попап для contact -->
+
+
+<div class="popup-1 popup" data-popup="contact">
+	<div class="popup-1__body">
+		<div class="popup-1__content">
+			<button class="popup-1__close popup-close"><img src="images/modal-window-1/icon.svg" alt="close icon"></button>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit error porro ipsam eligendi velit, architecto est unde provident ea inventore nesciunt, soluta cupiditate excepturi? Officiis praesentium id dignissimos recusandae ad.
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- Попапы для blogs -->
+
+
+
+<div class="popup-1 popup" data-popup="intro-blogs">
+	<div class="popup-1__body">
+		<div class="popup-1__content">
+			<button class="popup-1__close popup-close"><img src="images/modal-window-1/icon.svg" alt="close icon"></button>
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit error porro ipsam eligendi velit, architecto est unde provident ea inventore nesciunt, soluta cupiditate excepturi? Officiis praesentium id dignissimos recusandae ad.
+		</div>
+	</div>
+</div>
+		<button class="scroll-arrow _scroll-top"><span></span><span></span><span></span></button>
+	</div>
+
+	<!--СКРИПТЫ-->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
